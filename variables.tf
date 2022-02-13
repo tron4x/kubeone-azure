@@ -58,19 +58,19 @@ variable "ssh_agent_socket" {
 
 variable "location" {
   description = "Azure datacenter to use"
-  default     = "westeurope"
+  default     = "centralus"
   type        = string
 }
 
 variable "control_plane_vm_size" {
   description = "VM Size for control plane machines"
-  default     = "Standard_F2"
+  default     = "Standard_B2s"
   type        = string
 }
 
 variable "worker_vm_size" {
   description = "VM Size for worker machines"
-  default     = "Standard_F2"
+  default     = "Standard_B2s"
   type        = string
 }
 
